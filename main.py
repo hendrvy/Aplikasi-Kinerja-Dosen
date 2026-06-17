@@ -234,7 +234,6 @@ class App:
         # ── Card hasil (awalnya tersembunyi) ──
         self.result_card = tk.Frame(self.root, bg=CARD,
                                     highlightbackground=BORDER, highlightthickness=1)
-        # TIDAK di-pack dulu – akan di-pack saat ada hasil
 
         # Header kartu hasil
         rh = tk.Frame(self.result_card, bg=CARD_HDR)
